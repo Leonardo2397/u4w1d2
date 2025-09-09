@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class NumeriInLettere {
     public static void main(String[] args) {
+        // scanner che legge da systemin
         Scanner scanner = new Scanner(System.in);
 
 //        chiedo di inserire un numero
           System.out.print("Inserire un numero intero");
-          int numero = scanner.nextInt();
+          int numero = scanner.nextInt(); // legge il prossimo numero intero inserito
 
           switch(numero) {
               case 0:

@@ -17,11 +17,13 @@ public class SplittaStringa {
             }
 
             char[] caratteri = input.toCharArray();
-
+               // ciclo i caratteri
             for (int i = 0; i < caratteri.length; i++) {
+                // all ultimo carattere non metto la virgola
                 if (i == caratteri.length - 1) {
                     System.out.print(caratteri[i]);
                 } else {
+                    // se non è ultimo caratt stampa con la virgola dopo
                     System.out.print(caratteri[i] + ",");
                 }
             }
